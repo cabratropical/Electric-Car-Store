@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Tienda en línea</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+           <i class="fa-solid fa-car"></i>
+            <h3>Cars</h3>
+        </div>
+        <div class="menu-toggle">☰</div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Catálago</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="filters">
+            <label for="ordenarPor">Ordenar por:</label>
+            <select id="ordenarPor" name="ordenarPor">
+                <option value="menorPrecio">Menor precio</option>
+                <option value="mayorPrecio">Mayor precio</option>
+                <option value="color">Color</option>
+                <option value="relevante">Más relevante</option>
+            </select>
+        </section>
+
+        <section class="main-content">
+
+            <div class="product-card">
+                <img src="./assets/img/Foto de producto.webp" alt="Producto 1">
+                <p>Model: City Car</p>
+                <button>Ver más</button>
+            </div>
+
+            
+            <div class="product-card">
+                <img src="./assets/img/Foto de producto.webp" alt="Producto 2">
+                <p>Model: City Car</p>
+                <button>Ver más</button>
+            </div>
+
+            
+            <div class="product-card">
+                <img src="./assets/img/Foto de producto.webp" alt="Producto 3">
+                <p>Model: City Car</p>
+                <button>Ver más</button>
+            </div>
+
+            
+            <div class="product-card">
+                <img src="./assets/img/Foto de producto.webp" alt="Producto 4">
+                <p>Model: City Car</p>
+                <button>Ver más</button>
+            </div>
+
+            
+            <div class="product-card">
+                <img src="/assets/img/Foto de producto.webp" alt="Producto 5">
+                <p>Model: City Car</p>
+                <button>Ver más</button>
+            </div>
+
+            
+            <div class="product-card">
+                <img src="./assets/img/Foto de producto.webp" alt="Producto 6">
+                <p>Model: City Car</p>
+                <button>Ver más</button>
+            </div>
+        </section>
+        <div class="pagination-container">
+            <div class="pagination">
+                <span>&lt;</span>
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>&gt;</span>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados &copy; 2023</p>
+        <div class="social-icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </footer>
+    
+</body>
+</html>
